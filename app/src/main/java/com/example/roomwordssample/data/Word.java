@@ -5,6 +5,9 @@ import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
+import androidx.room.Query;
+
+import java.util.List;
 
 @Entity(tableName = "word_table")
 public class Word {
